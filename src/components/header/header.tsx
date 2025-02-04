@@ -64,7 +64,7 @@ export const Header: FC<HeaderProps> = ({ setFilteredItems }) => {
             sx={{ display: { xs: 'none', sm: 'block' }, cursor: 'pointer' }}
             onClick={handleMainPage}
           >
-            FoodBasket
+            ApiItems
           </Typography>
           <Search>
             <SearchIconWrapper>
